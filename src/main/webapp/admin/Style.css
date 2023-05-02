@@ -1,0 +1,60 @@
+div .back-img{
+	background:url("img/book.jpeg");
+}
+
+.bg-custom{
+	background-color:#303f9f;
+}
+
+.navbar .nav-link {
+
+color:#303f9f;
+transition: all 0.4s ease 0s;
+
+}
+
+.navbar .nav-item:hover{
+	border-radius:15px;
+	background: #f6b93b;
+	border-color: #f6b93b !important;
+	transition: all 0.4s ease 0s;
+}
+
+.navbar .H button{
+	color:#303f9f;
+transition: all 0.4s ease 0s;
+	
+}
+.navbar .H button:hover{
+	border-radius:15px;
+	background: #f6b93b;
+	border-color: #f6b93b !important;
+	transition: all 0.4s ease 0s;
+}
+.card .custom-image {
+  height: 250px; /* Set the height to 300 pixels */
+  width: auto; /* Set the width to auto so that it adjusts based on the height */
+}
+
+.rainbow {
+    font-size: 32px;
+   
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
